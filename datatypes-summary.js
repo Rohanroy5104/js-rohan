@@ -41,3 +41,27 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+/*
+ What is typeof?
+typeof is an operator used to find the type of a value or variable.
+
+It returns a string indicating the type.
+
+typeof variableName
+
+typeof 5;             // "number"
+typeof "hello";       // "string"
+typeof true;          // "boolean"
+typeof undefined;     // "undefined"
+typeof {name: "Rohan"}; // "object"
+typeof [1,2,3];       // "object" (Arrays are technically objects in JS)
+typeof function() {}; // "function"
+typeof null;          // "object" (⚡ this is a historical bug in JS)
+
+You can combine typeof with conditionals:
+if (typeof x === "string") {
+    console.log("x is a string!");
+}
+    
+*/

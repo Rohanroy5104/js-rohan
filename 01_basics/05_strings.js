@@ -32,4 +32,5 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+const gameName1 = new String('Rohan Roy com')
+console.log(gameName1.split(' '));

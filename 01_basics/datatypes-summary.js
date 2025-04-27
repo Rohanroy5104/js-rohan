@@ -63,5 +63,13 @@ You can combine typeof with conditionals:
 if (typeof x === "string") {
     console.log("x is a string!");
 }
-    
 */
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "hiteshchaudharydotcom"
+let anothername = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename);
+console.log(anothername);
